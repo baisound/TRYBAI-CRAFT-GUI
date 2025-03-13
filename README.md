@@ -1,2 +1,5 @@
-# TRYBAI-CRAFT-GUI
-妨害マインクラフトを始めるにあたってバイサウンドプラグインの設定変更する為のGUIアプリケーションとなります
+# TRYBAI_CRAFT_GUI
+
+TRY系妨害マインクラフトのソフトウェアバンドル、TRYBAI_CRAFTの設定をいじるためのソフトです
+
+#### Releasesのファイルを全て、TRYBAI_CRAFTフォルダに入れて使用してください

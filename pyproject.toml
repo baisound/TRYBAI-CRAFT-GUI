@@ -1,0 +1,14 @@
+[project]
+name = "try-config"
+version = "0.1.0"
+description = "TikTok設定マネージャー"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyinstaller>=6.12.0",
+    "ruamel-yaml>=0.17.21",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
