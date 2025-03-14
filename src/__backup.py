@@ -34,14 +34,14 @@ class DifferentialBackup:
 
     def cleanup_old_backups(self) -> None:
         """
-        差分バックアップディレクトリが10個以上存在する場合、古い方から削除して
+        差分バックアップディレクトリが5個以上存在する場合、古い方から削除して
         総数が9個になるようにします（新規バックアップ作成後に全体で10個となるように）。
         """
         # diff_backup_で始まるディレクトリ一覧を取得し、名前順（タイムスタンプ順）にソート
         diff_dirs = sorted(
             [d for d in self.backup_root.iterdir() if d.is_dir() and d.name.startswith(f"{self.diff_dir_prefix}_")]
         )
-        while len(diff_dirs) >= 10:
+        while len(diff_dirs) >= 55:
             oldest = diff_dirs.pop(0)
             shutil.rmtree(oldest)
             print(f"Removed old differential backup: {oldest}")
