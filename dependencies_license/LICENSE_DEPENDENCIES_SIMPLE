@@ -1,0 +1,68 @@
+GitPython
+3.1.44
+BSD License
+
+Nuitka
+2.6.8
+Apache Software License
+
+beautifulsoup4
+4.13.3
+MIT License
+
+certifi
+2025.1.31
+Mozilla Public License 2.0 (MPL 2.0)
+
+charset-normalizer
+3.4.1
+MIT License
+
+gitdb
+4.0.12
+BSD License
+
+idna
+3.10
+BSD License
+
+ordered-set
+4.1.0
+MIT License
+
+pillow
+11.1.0
+CMU License (MIT-CMU)
+
+polars
+1.26.0
+MIT License
+
+requests
+2.32.3
+Apache Software License
+
+ruamel.yaml
+0.18.10
+MIT License
+
+smmap
+5.0.2
+BSD License
+
+soupsieve
+2.6
+MIT License
+
+typing_extensions
+4.12.2
+Python Software Foundation License
+
+urllib3
+2.3.0
+MIT License
+
+zstandard
+0.23.0
+BSD License
+
